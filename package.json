@@ -1,0 +1,9 @@
+{
+  "name": "lib1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cities.json": "^1.1.5"
+  }
+}
