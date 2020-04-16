@@ -8,7 +8,7 @@ const countriesAlpha3CodeIndex = {};
 const countriesAlpha2CodeIndex = {};
 const countriesCiocIndex = {};
 
-const countryKeyCode = 'cioc';
+const countryKeyCode = 'alpha3Code';
 
 rawCountries.map(function (country) {
     const countryCode = country[countryKeyCode];
@@ -28,4 +28,4 @@ rawCities.map(function (city) {
     countries[city.country].cities.push(city);
 });
 
-console.log(JSON.stringify(countries));
+console.log(JSON.stringify(countries, null, '  '));
